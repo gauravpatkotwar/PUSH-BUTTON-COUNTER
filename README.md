@@ -25,3 +25,6 @@ The software, written in the Arduino C/C++ environment, initializes the pins and
 The circuit diagram details the connections: the push button links pin 2 to ground, and the LED connects pin 13 to ground via a 220-ohm resistor. The Arduino connects to a computer via USB for power and Serial Monitor output. This setup is breadboard-friendly, requiring minimal components, making it ideal for prototyping.
 
 The system’s simplicity allows for educational use while demonstrating key embedded systems concepts: digital I/O, interrupt-free polling, software debouncing, and serial communication. Potential extensions include adding an LCD for standalone display or integrating wireless communication (e.g., via ESP8266) for remote monitoring. The design prioritizes reliability, using debouncing to prevent false counts, and accessibility, leveraging Arduino’s ecosystem for ease of implementation.
+
+#OUTPUT
+
